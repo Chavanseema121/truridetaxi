@@ -1,37 +1,37 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png"
+import logotruride from "../assets/home/logotruride.png"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-white shadow px-4 py-6">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
-          <img src={logo} alt="Logo" className="w-36 mr-2" />
+      <div className="container mx-auto flex justify-between items-center ">
+        <div className="flex items-center  font-bold w-[190.30px] h-[60px] px-6  ">
+          <img src={logotruride} alt="Logo" className=" mr-4  w-16 md:w-32 lg:w-52" />
         </div>
-        <div className="hidden md:flex items-center font-semibold text-xl space-x-6">
-          <a href="#home" className="text-black hover:text-orange-800">
+        <div className="hidden md:flex items-center  font-semibold  space-x-6">
+          <a href="#home" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             Home
           </a>
-          <a href="#features" className="text-black hover:text-orange-800">
+          <a href="#features" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             Features
           </a>
-          <a href="#about" className="text-black hover:text-orange-800">
+          <a href="#about" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             About us
           </a>
-          <a href="#howitworks" className="text-black hover:text-orange-800">
+          <a href="#howitworks" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             How it works
           </a>
-          <a href="#testimonials" className="text-black hover:text-orange-800">
+          <a href="#testimonials" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             Testimonials
           </a>
 
-          <a href="#contact" className="text-black hover:text-orange-800">
+          <a href="#contact" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             Contact Us
           </a>
           <a
             href="#"
-            className="rounded text-nowrap border border-[#FF2E00] py-2 px-4 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
+            className="rounded text-nowrap border border-[#FF2E00] py-2 px-5 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
           >
             Get the App
           </a>

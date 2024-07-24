@@ -5,9 +5,46 @@ import handmobile from "../assets/home/handmobile.png";
 import apple from "../assets/home/apple.png";
 import playstore from "../assets/home/sectionplay.png";
 import qcode from "../assets/home/qcode.png";
-import android from "../assets/home/doremon.png"
-import iphone from "../assets/home/doremon.png"
+import android from "../assets/home/doremon.png";
+import iphone from "../assets/home/doremon.png";
+import amico from "../assets/home/amico.png";
+import grouptwo from "../assets/home/Grouptwo.png";
+import fare from "../assets/home/fare.png";
+import commision from "../assets/home/commision.png";
+import location from "../assets/home/location.png";
+import mobile from "../assets/home/mobile.png";
+import rupees from "../assets/home/rupees.png";
+import line from "../assets/home/line.png";
+import benefittruride from "../assets/home/benefittruride.png";
 
+const benefits = [
+  {
+    title: "Fare Estimates",
+    description: "Affordable rides with fare charges to make smile on users",
+    imageSrc: fare,
+  },
+  {
+    title: "0% commission fee",
+    description: "We're promising 0% commission fee to our TruRide Drivers",
+    imageSrc: commision,
+  },
+  {
+    title: "AI Route",
+    description: "Indias first AI gamified route technology",
+    imageSrc: location,
+  },
+  {
+    title: "Rewards via Rides",
+    description:
+      "With AI route, Drivers & Riders can earn points or cash rewards",
+    imageSrc: rupees,
+  },
+  {
+    title: "2 way bookings",
+    description: "We're offering 2 way booking, App and dedicated Number",
+    imageSrc: mobile,
+  },
+];
 
 export default function Home() {
   return (
@@ -63,7 +100,7 @@ export default function Home() {
             <div className="my-8 md:w-1/2 w-full">
               <img
                 src={handmobile}
-                className="block md:absolute md:mx-auto bottom-0 right-0 "
+                className="block md:absolute md:mx-auto mr-6 w-[598px] h-[610px] pb-4  "
                 alt="Phone"
               ></img>
             </div>
@@ -86,7 +123,7 @@ export default function Home() {
           </h4>
         </div>
         {/* right */}
-        <div className="flex flex-col gap-4 md:gap-16 w-full md:w-[40%] px-4 md:px-0 mx-auto">
+        <div className="flex flex-col gap-4 md:gap-16 w-full md:w-[40%] px-4 md:px-0 mx-auto py-4">
           <div className="bg-[#434343] rounded px-4 md:px-8 w-full py-4 flex justify-between md:justify-normal md:gap-10 relative">
             <div className="w-fit flex flex-col justify-between">
               <p className="block text-2xl md:text-4xl text-white text-bold text-nowrap">
@@ -124,6 +161,92 @@ export default function Home() {
               src={apple}
               className="w-16 h-13 my-auto bg-black rounded-full p-4 absolute bottom-[-25%] right-0"
             ></img>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-10">
+        <section className="mt-20 max-w-full h-auto bg-[#f9f9f9] p-5">
+          <div className="text-center">
+            <h3 className="text-[#100062] text-3xl font-bold">
+              Benefits of <span className="text-[#FF2E00]">TruRide</span>
+            </h3>
+            <div className="flex justify-center mt-5">
+              <img
+                src={line}
+                alt="Decorative line"
+                className="rotate-180 w-32"
+                style={{ alignItems: "center" }}
+              />
+            </div>
+
+            <img src={benefittruride} width={1460}></img>
+          </div>
+        </section>
+      </div>
+
+      <div className="bg-white w-full py-20 flex flex-col gap-10">
+        <h1 className=" text-[#100062] font-bold text-3xl text-center">
+          Why<span className="text-[#FF2E00]"> Truride? </span>
+        </h1>
+        <div className="flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:justify-around items-center mt-20">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
+            <p className="font-bold text-center md:text-left mt-6">
+              Empowering Drivers, Rewarding Users with AI route mapping
+            </p>
+            <p className="font-normal text-center md:text-left">
+              At TruRidetaxi, we're a vibrant community, empowering drivers with
+              40% stake ownership. Our AI route mapping optimizes rides,
+              <br /> making them more affordable and efficient for both drivers
+              and riders.
+            </p>
+          </div>
+          <div className="w-full md:w-[40%] flex justify-center mt-2">
+            <img
+              src={amico}
+              className="max-w-full h-auto"
+              alt="Descriptive Alt Text"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+          <div className="w-full md:w-[40%] flex justify-center px-16">
+            <img
+              src={grouptwo}
+              className="max-w-full h-auto"
+              alt="Descriptive Alt Text"
+            />
+          </div>
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
+            <p className="font-bold text-center md:text-left">
+              Seamless Cabs & Auto Bookings with One tap Accessibility
+            </p>
+            <p className="font-normal text-center md:text-left">
+              TruRide is user-friendly, allowing riders to access cab or auto
+              bookings through
+              <br /> a #360 of our dedicated Number or via the WhatsApp platform
+              with just one tap.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
+            <p className="font-bold text-center md:text-left mt-6">
+              Empowering Drivers, Rewarding Users with AI route mapping
+            </p>
+            <p className="font-normal text-center md:text-left">
+              At TruRidetaxi, we're a vibrant community, empowering drivers with
+              40% stake ownership. Our AI route mapping optimizes rides, making
+              them more affordable and efficient for both drivers and riders.
+            </p>
+          </div>
+          <div className="w-full md:w-[40%] flex justify-center mt-2">
+            <img
+              src={amico}
+              className="max-w-full h-auto"
+              alt="Descriptive Alt Text"
+            />
           </div>
         </div>
       </div>
