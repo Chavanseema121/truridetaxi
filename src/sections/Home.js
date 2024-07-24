@@ -133,7 +133,7 @@ export default function Home() {
       </div>
 
       <div className="mt-10">
-        <section className="mt-20 max-w-full h-auto bg-[#f9f9f9] p-5">
+        <section className="mt-20 max-w-full h-auto bg-[#f9f9f9] flex items-center justify-center p-5">
           <div className="text-center">
             <h3 className="text-[#100062] text-3xl font-bold">
               Benefits of <span className="text-[#FF2E00]">TruRide</span>

@@ -3,7 +3,7 @@ import circle from "../assets/contacts/circle.png"
 import bar from "../assets/contacts/bar.png"
 import lineimg from "../assets/contacts/lineimg.png"
 
-function contactUs() {
+function Contactus() {
   return (
     <div className='bg-white p-10  '>
             
@@ -69,13 +69,10 @@ function contactUs() {
             </div>
           </div>
         </div>
-        <div className='bg-white'>
-         <div></div>
-         <div></div>
-        </div>
+        
       </section>
     </div>
   );
 }
 
-export default contactUs;
+export default Contactus;
