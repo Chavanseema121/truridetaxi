@@ -5,46 +5,12 @@ import handmobile from "../assets/home/handmobile.png";
 import apple from "../assets/home/apple.png";
 import playstore from "../assets/home/sectionplay.png";
 import qcode from "../assets/home/qcode.png";
-import android from "../assets/home/doremon.png";
+// import doremon from "../assets/home/doremon.png";
 import iphone from "../assets/home/doremon.png";
 import amico from "../assets/home/amico.png";
 import grouptwo from "../assets/home/Grouptwo.png";
-import fare from "../assets/home/fare.png";
-import commision from "../assets/home/commision.png";
-import location from "../assets/home/location.png";
-import mobile from "../assets/home/mobile.png";
-import rupees from "../assets/home/rupees.png";
 import line from "../assets/home/line.png";
 import benefittruride from "../assets/home/benefittruride.png";
-
-const benefits = [
-  {
-    title: "Fare Estimates",
-    description: "Affordable rides with fare charges to make smile on users",
-    imageSrc: fare,
-  },
-  {
-    title: "0% commission fee",
-    description: "We're promising 0% commission fee to our TruRide Drivers",
-    imageSrc: commision,
-  },
-  {
-    title: "AI Route",
-    description: "Indias first AI gamified route technology",
-    imageSrc: location,
-  },
-  {
-    title: "Rewards via Rides",
-    description:
-      "With AI route, Drivers & Riders can earn points or cash rewards",
-    imageSrc: rupees,
-  },
-  {
-    title: "2 way bookings",
-    description: "We're offering 2 way booking, App and dedicated Number",
-    imageSrc: mobile,
-  },
-];
 
 export default function Home() {
   return (
@@ -52,11 +18,11 @@ export default function Home() {
       <section className="min-h-screen w-full py-10">
         <div className="w-11/12 mx-auto">
           <div className="flex gap-5 w-full justify-center">
-            <img src={rocket} width={40}></img>
+            <img src={rocket} width={40} alt="Rocket"></img>
             <p className="font-bold text-2xl md:text-4xl text-[#100062] uppercase">
               Launching Soon
             </p>
-            <img src={watch} width={35}></img>
+            <img src={watch} width={35} alt="Watch"></img>
           </div>
           <div className="py-6 w-100 flex md:flex-row flex-col gap-4">
             {/* left */}
@@ -77,7 +43,7 @@ export default function Home() {
               </h3>
               <div className="w-full flex justify-between md:justify-start gap-4 mt-20">
                 <div className="bg-black rounded px-3 md:px-6 py-3 flex gap-4 w-fit grow md:grow-0">
-                  <img src={apple} className="w-10 md:w-12"></img>
+                  <img src={apple} alt="Apple" className="w-10 md:w-12 " ></img>
                   <div>
                     <p className="block text-white font-medium">Download On</p>
                     <p className="block text-white md:text-3xl text-lg font-medium">
@@ -86,7 +52,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="bg-black rounded px-3 md:px-6 py-3 flex gap-4 w-fit grow md:grow-0">
-                  <img src={playstore} className="w-10 md:w-12"></img>
+                  <img src={playstore} alt="Playstore" className="w-10 md:w-12"></img>
                   <div>
                     <p className="block text-white font-medium">Get it on</p>
                     <p className="block text-white md:text-3xl text-lg font-medium">
@@ -131,15 +97,15 @@ export default function Home() {
               </p>
               <p className="mt-2 block text-white text-nowrap">iOS 15.6+</p>
               <a
-                href="#"
-                className="mt-2 w-fit rounded block text-nowrap border border-[#FF2E00] py-2 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
-              >
-                Download Now
-              </a>
+      href = "#"
+      className="mt-2 w-fit rounded block text-nowrap border border-[#FF2E00] py-2 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
+    >
+      Download Now
+    </a>
             </div>
-            <img src={qcode} className="h-26 w-26 my-auto"></img>
+            <img src={qcode} alt="qcode" className="h-26 w-26 my-auto"></img>
             <img
-              src={iphone}
+              src={iphone} alt="iphone"
               className="w-16 h-13 my-auto bg-black rounded-full p-4 absolute top-[-25%] right-0"
             ></img>
           </div>
@@ -149,6 +115,7 @@ export default function Home() {
                 For iOS
               </p>
               <p className="mt-2 block text-white text-nowrap">iOS 15.6+</p>
+
               <a
                 href="#"
                 className="mt-2 w-fit rounded block text-nowrap border border-[#FF2E00] py-2 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
@@ -156,9 +123,9 @@ export default function Home() {
                 Download Now
               </a>
             </div>
-            <img src={qcode} className="h-26 w-26 my-auto"></img>
+            <img src={qcode} alt="qcode" className="h-26 w-26 my-auto"></img>
             <img
-              src={apple}
+              src={apple} alt="apple"
               className="w-16 h-13 my-auto bg-black rounded-full p-4 absolute bottom-[-25%] right-0"
             ></img>
           </div>
@@ -180,7 +147,7 @@ export default function Home() {
               />
             </div>
 
-            <img src={benefittruride} width={1460}></img>
+            <img src={benefittruride} alt="benefittruride" width={1460} ></img>
           </div>
         </section>
       </div>
