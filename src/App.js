@@ -4,7 +4,7 @@ import Navbar from "./componants/Navbar";
 
 import Home from './sections/Home';
 import Footer from './sections/Footer'
-import HowItWorks from './sections/Howitworks';
+import Contactus from './sections/Contactus';
 import Testimonials from './sections/Testimonial';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <Navbar/>
     <Home/>
     <Testimonials/>
-    <HowItWorks/>
+    <Contactus/>
     <Footer/>
     
     </>

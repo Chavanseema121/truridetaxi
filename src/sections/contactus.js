@@ -3,7 +3,7 @@ import circle from "../assets/contacts/circle.png"
 import bar from "../assets/contacts/bar.png"
 import lineimg from "../assets/contacts/lineimg.png"
 
-function HowItWorks() {
+function contactUs() {
   return (
     <div className='bg-white p-10  '>
             
@@ -78,4 +78,4 @@ function HowItWorks() {
   );
 }
 
-export default HowItWorks;
+export default contactUs;
