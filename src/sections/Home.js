@@ -152,10 +152,19 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="bg-white w-full py-20 flex flex-col gap-10">
-        <h1 className=" text-[#100062] font-bold text-3xl text-center">
+      <div className="bg-white w-full py-15 flex flex-col gap-0">
+        <h1 className=" text-[#100062] font-bold text-4xl text-center">
           Why<span className="text-[#FF2E00]"> Truride? </span>
         </h1>
+        <div className="flex justify-center mt-5">
+              <img
+                src={line}
+                alt="Decorative line"
+                className="rotate-180 w-32"
+                style={{ alignItems: "center" }}
+              />
+            </div>
+
         <div className="flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:justify-around items-center mt-20">
           <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
             <p className="font-bold text-center md:text-left mt-6">

@@ -18,24 +18,24 @@ function Contactus() {
         <div className="flex flex-col md:flex-row items-start justify-between gap-10">
           <div className="flex flex-col w-full md:w-1/2 md:px-20">
             <div className="mb-4 w-full mx-auto">
-              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold">Name</label>
-              <input type="text" className="form-control w-full p-2 border rounded " id="exampleFormControlInput1" />
+              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold text-lg">Name</label>
+              <input type="text" className="form-control w-full p-2 border border-[#ff2E00] rounded " id="exampleFormControlInput1" />
             </div>
             <div className="mb-4 w-full mx-auto">
-              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold">Mobile Number</label>
-              <input type="number" className="form-control  w-full p-2 border rounded" id="exampleFormControlInput1" />
+              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold text-lg">Mobile Number</label>
+              <input type="number" className="form-control  w-full p-2 border border-[#ff2E00] rounded" id="exampleFormControlInput1" />
             </div>
             <div className="mb-4 w-full mx-auto">
-              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold">Email address</label>
-              <input type="email" className="form-control w-full p-2 border rounded" id="exampleFormControlInput1"/>
+              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold text-lg">Email address</label>
+              <input type="email" className="form-control w-full p-2 border border-[#ff2E00] rounded" id="exampleFormControlInput1"/>
             </div>
             <div className="mb-4 w-full mx-auto">
-              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold">You are a?</label>
-              <input type="text" className="form-control w-full p-2 border rounded" id="exampleFormControlInput1" />
+              <label htmlFor="exampleFormControlInput1" className="block mb-2 font-semibold text-lg">You are a?</label>
+              <input type="text" className="form-control w-full p-2 border border-[#ff2E00] rounded" id="exampleFormControlInput1" />
             </div>
             <div className="mb-4 w-full mx-auto">
-              <label htmlFor="exampleFormControlTextarea1" className="block mb-2 font-semibold">Comments</label>
-              <textarea className="form-control w-full p-4 border rounded" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label htmlFor="exampleFormControlTextarea1" className="block mb-2 font-semibold text-lg">Comments</label>
+              <textarea className="form-control w-full p-4 border border-[#ff2E00] rounded" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button className="bg-[#ff2E00] max-w-md mx-auto text-white w-[197px] h-[48px] p-2 rounded font-bold text-[22px]">Submit</button>
           </div>
