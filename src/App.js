@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar"; // Correct the folder name "components"
+import Navbar from "./components/Navbar"; 
 import Home from './sections/Home';
 import Contactus from './sections/Contactus';
 import Footer from './sections/Footer';
