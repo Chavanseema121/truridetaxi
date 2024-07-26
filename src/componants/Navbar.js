@@ -5,11 +5,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow px-4 py-6">
-      <div className="container mx-auto flex justify-between items-center ">
-        <div className="flex items-center  font-bold  px-10 ">
-          <img src={logotruride} alt="Logo" className=" mr-4  w-[190.30px] h-[60px] md:w-32 lg:w-52"/>
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex items-center font-bold px-10">
+          <img src={logotruride} alt="Logo" className="mr-4  w-[190.30px] h-[60px] md:w-32 lg:w-52"/>
         </div>
-        <div className="hidden md:flex items-center justify-center flex-1 font-semibold  space-x-10">
+        <div className="hidden md:flex items-center justify-center flex-1 font-semibold space-x-10">
           <a href="#home" className="text-black hover:text-[#FF2E00] text-sm md:text-xs lg:text-[18px]">
             Home
           </a>
