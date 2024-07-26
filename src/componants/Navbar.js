@@ -30,10 +30,10 @@ const Navbar = () => {
             Contact Us
           </a>
           </div>
-          <div className="hidden md:flex items-center mr-24">
+          <div className="hidden md:flex items-center mr-[40px]">
           <a
             href="#"
-            className=" rounded text-nowrap border border-[#FF2E00] w-56 text-center py-4 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
+            className="   rounded text-nowrap border border-[#FF2E00] w-56 text-center py-4 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
           >
             Get the App
           </a>
