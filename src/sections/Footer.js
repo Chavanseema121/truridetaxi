@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-white md:mt-48 mt-4 px-12 text-center md:text-left">
-          <p className="font-bold pb-8">company</p>
+          <p className="font-bold text-2xl pb-8">company</p>
           <p className="">Home</p>
           <p className="">Features</p>
           <p className="">About us</p>
@@ -46,7 +46,7 @@ export default function Footer() {
           <p className="">Conatacts</p>
         </div>
         <div className="text-white md:mt-48 mt-4 text-center md:text-left">
-          <p className="font-bold pb-8 ">Contact</p>
+          <p className="font-bold text-2xl pb-8 ">Contact</p>
           <p>(+91) 9346467553</p>
           <p>www.truridetaxi.com</p>
           <p>truridetaxi@gmail.com</p>
@@ -55,9 +55,9 @@ export default function Footer() {
             Bank.Back side of Axis Bank,L.B Nagar,Hyderabad,Telangana 500068
           </p>
         </div>
-        <div className="text-white md:mt-48 mt-4 font-bold space-y-6 text-center md:text-left">
-          <p className="font-bold pb-8 text-xm">Get the latest information</p>
-          <div className="flex text-white">
+        <div className="text-white md:mt-48 mt-4 font-bold space-y-6 text-center md:text-left px-4">
+          <p className="font-bold pb-8 text-2xl">Get the latest information</p>
+          <div className="flex text-white px-4">
             <input  placeholder="Email Address" className="px-1 w-full md:w-fit  bg-[#505050]"></input>
             <button className="bg-[#FF2E00] h-full p-2 flex items-center justify-center">
               <img src={arrow} width={30}></img>

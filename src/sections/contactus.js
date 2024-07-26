@@ -10,7 +10,7 @@ function Contactus() {
     
       <section className="bg-gray-100 p-10 rounded-lg md:mb-6 mb-40">
         <div className="text-center mb-10">
-          <h3 className='text-2xl font-bold text-indigo-900'>Contact Us</h3>
+          <h3 className='text-4xl font-bold text-indigo-900'>Contact Us</h3>
           <div className='mt-2'>
             <img src={bar} alt='bar' className='w-48 h-1 mx-auto'/>
           </div>
@@ -45,9 +45,9 @@ function Contactus() {
           <div className='hidden md:flex justify-center'>
            
           </div>
-          <div className="w-full md:w-1/2 flex flex-col gap-6">
+          <div className="w-full md:w-1/2 flex flex-col gap-12">
             <div>
-              <p className='text-3xl text-red-600 font-bold'>Head Office:</p>
+              <p className='text-3xl text-red-600 font-bold mt-4'>Head Office:</p>
               <p className='text-xl text-indigo-900'>
                 H.no-3-11-368/Flat no; 401, 4th<br />
                 Floor, above old Indusind<br />
@@ -59,8 +59,8 @@ function Contactus() {
             <div>
               <p className='text-3xl text-red-600 font-bold'>Contact us:</p>
               <p className='text-xl text-indigo-900'>
-                Email- truridetaxi@gmail.com<br />
-                Helpline No. +91 9346467553<br />
+                Email-<span className='text-[#ff2E00]'> truridetaxi@gmail.com </span><br />
+                Helpline No.<span className='text-[#ff2E00]'> +91 9346467553 </span><br />
                 <span className='flex items-center'>
                     <img src={circle} width={15} alt='circle' />
                     -truridetaxi.com

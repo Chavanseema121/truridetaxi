@@ -49,7 +49,7 @@ const blogs = [
 
 const BlogCard = ({ title, date, author, image }) => (
   <div className="bg-white shadow-md rounded-lg overflow-hidden">
-    <img src={image} alt={title} className="w-full h-48 object-cover" />
+    <img src={image} alt={title} className="w-full h-48 object-cover"/>
     <div className="p-4">
     <button className="rounded text-nowrap border border-[#FF2E00] py-2 px-4 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white">
         Taxi Booking
