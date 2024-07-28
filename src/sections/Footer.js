@@ -11,7 +11,7 @@ import apple from "../assets/contacts/apple.png";
 import pstore from "../assets/contacts/pstore.png";
 import arrow from "../assets/arrow.png"
 
-export default function Footer() {
+export default function Footer(){
   return (
     <section className="relative">
       
