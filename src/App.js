@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./sections/About";
-import Contactus from "./sections/Contactus";
+import Contact from "./sections/Contact";
 import Features from "./sections/Features";
 import Footer from "./sections/Footer";
 import Testimonial from "./sections/Testimonial";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <About />
-      <Contactus />
+      <Contact/>
       <Features />
       <Testimonial />
       <Footer />
