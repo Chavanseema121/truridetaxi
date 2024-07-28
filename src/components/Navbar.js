@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex items-center mr-[40px]">
           <a
-            href="#"
+            href="#get the App"
             className="   rounded text-nowrap border border-[#FF2E00] w-56 text-center py-4 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
           >
             Get the App
@@ -92,7 +92,7 @@ const Navbar = () => {
             Contact Us
           </a>
           <a
-            href="#"
+            href="#get the App"
             className="mt-2 rounded block text-nowrap border border-[#FF2E00] py-2 px-4 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
           >
             Get the App

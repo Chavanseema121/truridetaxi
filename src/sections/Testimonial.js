@@ -49,7 +49,7 @@ const blogs = [
 const BlogCard = ({ title, date, author, image }) => (
   <div className="bg-white shadow-md rounded-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
     <div className="relative overflow-hidden">
-      <img src={image} alt={title} className="w-full h-48 object-cover transition-transform transform hover:scale-110 duration-300" />
+      <img src={image} alt={title} className=" w-[342px] h-[196px] object-cover transition-transform transform hover:scale-110 duration-300"/>
     </div>
     <div className="p-4">
       <button className="rounded text-nowrap border border-[#FF2E00] py-2 px-4 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white">
@@ -75,7 +75,7 @@ const BlogSection = () => (
       <img src={lines} alt="lines" className="rotate-180 w-60 h-1 mx-auto" />
     </div>
     <p className='text-center mb-10 font-semibold text-lg'>
-      "TruRidetaxi: Effortlessly book rides via AI call automation from your mobile dialpad, with 2D maps for easy navigation and brand icon rewards to earn redeemable coins."
+      "TruRidetaxi: Effortlessly book rides via AI call automation from your mobile dialpad, with 2D maps for easy navigation and brand icon <br/>rewards to earn redeemable coins."
     </p>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {blogs.map((blog, index) => (

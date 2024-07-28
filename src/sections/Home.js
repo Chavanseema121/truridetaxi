@@ -97,7 +97,7 @@ export default function Home() {
               </p>
               <p className="mt-2 block text-white text-nowrap">iOS 15.6+</p>
               <a
-      href = "#"
+      href = "# Download Now"
       className="mt-2 w-fit rounded block text-nowrap border border-[#FF2E00] py-2 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
     >
       Download Now
@@ -117,7 +117,7 @@ export default function Home() {
               <p className="mt-2 block text-white text-nowrap">iOS 15.6+</p>
 
               <a
-                href="#"
+                href="#Download Now"
                 className="mt-2 w-fit rounded block text-nowrap border border-[#FF2E00] py-2 px-10 text-[#FF2E00] font-semibold hover:bg-[#FF2E00] hover:text-white"
               >
                 Download Now
