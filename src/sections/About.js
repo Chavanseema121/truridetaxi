@@ -67,7 +67,7 @@ import roundlogo from '../assets/about/roundlogo.png';
 function About() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4 sm:p-6 lg:p-8">
-      <div className="w-full max-w-9xl bg-gray-100 rounded-lg shadow-md mb-0">
+      <div className="w-full max-w-9xl bg-white rounded-lg shadow-md mb-0">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8 text-indigo-900">
           About our <span className="text-[#FF2E00]">TruRide</span>
         </h1>

@@ -8,7 +8,7 @@ function Contactus() {
     <div className='bg-white p-10  '>
             
     
-      <section className="bg-gray-100 p-10 rounded-lg md:mb-6 mb-40">
+      <section className="bg-white p-10 rounded-lg md:mb-6 mb-40">
         <div className="text-center mb-10">
           <h3 className='text-4xl font-bold text-indigo-900'>Contact Us</h3>
           <div className='mt-2'>

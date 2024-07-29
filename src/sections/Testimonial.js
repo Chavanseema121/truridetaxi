@@ -88,12 +88,12 @@ const BlogSection = () => (
 export default function Testimonials() {
   return (
     <div className='mt-10'>
-      <section className='mt-5 max-w-full h-auto bg-[#f9f9f9] p-5'>
+      <section className='max-w-full h-auto bg-white p-5'>
         <div className="text-center">
           <h3 className='text-[#100062] text-3xl font-bold'>
             Our Drivers & Riders <span className='text-[#FF2E00]'>Testimonials</span>
           </h3>
-          <div className='flex justify-center mt-5'>
+          <div className='flex justify-center mb-2'>
             <img
               src={linetwo}
               alt="Decorative line"
@@ -103,7 +103,7 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row md:justify-around items-start mt-20'>
+        <div className='flex flex-col md:flex-row md:justify-around items-start'>
           {testimonials.map((testimonial, index) => (
             <div key={index} className='flex flex-col items-center text-center max-w-xs'>
               <img src={testimonial.imageSrc} alt="" className='w-48 h-48 mb-5' />
