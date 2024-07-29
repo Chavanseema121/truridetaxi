@@ -88,7 +88,7 @@ const BlogSection = () => (
 export default function Testimonials() {
   return (
     <div className='mt-10'>
-      <section className='mt-40 max-w-full h-auto bg-[#f9f9f9] p-5'>
+      <section className='mt-5 max-w-full h-auto bg-[#f9f9f9] p-5'>
         <div className="text-center">
           <h3 className='text-[#100062] text-3xl font-bold'>
             Our Drivers & Riders <span className='text-[#FF2E00]'>Testimonials</span>

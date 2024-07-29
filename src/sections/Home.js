@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="py-6 w-100 flex md:flex-row flex-col gap-4">
             {/* left */}
-            <div className="my-8 md:w-1/2 w-full">
+            <div className="my-12 md:w-1/2 w-full">
               <h1 className="font-bold text-xl text-center md:text-left">
                 The most Affordable & Reliable{" "}
                 <span className="text-[#FF2E00]">“TruRide”</span> Platform
@@ -35,7 +35,7 @@ export default function Home() {
                 Introducing <span className="text-[#FF2E00]">"TruRide"</span> -
                 India's Premier AI-Infused Gamified Route Technology Platform!
               </h2>
-              <h3 className="mt-8 text-xl font-normal text-[#100062]">
+              <h3 className="mt-8 text-xl font-normal md:text-left text-[#100062]">
                 Welcome to <span className="text-[#FF2E00]">TruRidetaxi</span>,
                 the innovative AI-driven service simplifying cab, taxi, auto,
                 and bike bookings. Dial our unique #360 number from your mobile
@@ -66,7 +66,7 @@ export default function Home() {
             <div className="my-8 md:w-1/2 w-full">
               <img
                 src={handmobile}
-                className="block md:absolute md:mx-auto mr-6 w-[598px] h-[610px] pb-4  "
+                className="block md:absolute md:mx-auto mr-10 w-[500px] h-[605px] pb-4  "
                 alt="Phone"
               ></img>
             </div>
@@ -133,9 +133,9 @@ export default function Home() {
       </div>
 
       <div className="mt-10">
-        <section className="mt-20 max-w-full h-auto bg-[#f9f9f9] flex items-center justify-center p-5">
+        <section className="mt-10 max-w-full h-auto bg-[#f9f9f9] flex items-center justify-center p-5">
           <div className="text-center">
-            <h3 className="text-[#100062] text-3xl font-bold">
+            <h3 className="text-[#100062] text-4xl font-bold">
               Benefits of <span className="text-[#FF2E00]">TruRide</span>
             </h3>
             <div className="flex justify-center mt-5">
@@ -152,11 +152,11 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="bg-white w-full py-15 flex flex-col gap-0">
-        <h1 className=" text-[#100062] font-bold text-4xl text-center">
+      {/* <div className="bg-white w-full py-4 flex flex-col gap-0 p-5">
+        <h1 className=" text-[#100062] font-bold text-4xl text-center mt-6">
           Why<span className="text-[#FF2E00]"> Truride? </span>
         </h1>
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center mt-2">
               <img
                 src={line}
                 alt="Decorative line"
@@ -165,15 +165,15 @@ export default function Home() {
               />
             </div>
 
-        <div className="flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:justify-around items-center mt-20">
-          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
-            <p className="font-bold text-center md:text-left mt-6">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:justify-around items-center mt-10">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-8">
+            <p className="font-bold text-center md:text-left mt-2">
               Empowering Drivers, Rewarding Users with AI route mapping
             </p>
             <p className="font-normal text-center md:text-left">
               At TruRidetaxi, we're a vibrant community, empowering drivers with
-              40% stake ownership. Our AI route mapping optimizes rides,
-              <br /> making them more affordable and efficient for both drivers
+              40% stake<br/> ownership. Our AI route mapping optimizes rides,
+               making them more affordable and efficient for both drivers
               and riders.
             </p>
           </div>
@@ -186,16 +186,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
-          <div className="w-full md:w-[40%] flex justify-center px-16">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10 mb-4 mt-10">
+          <div className="w-full md:w-[40%] flex justify-center px-8">
             <img
               src={grouptwo}
               className="max-w-full h-auto"
               alt="Descriptive Alt Text"
             />
           </div>
-          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
-            <p className="font-bold text-center md:text-left">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-8">
+            <p className="font-bold text-center md:text-left mt-2">
               Seamless Cabs & Auto Bookings with One tap Accessibility
             </p>
             <p className="font-normal text-center md:text-left">
@@ -206,9 +206,9 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
-          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-16">
-            <p className="font-bold text-center md:text-left mt-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10 mb-4 mt-10">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start px-8">
+            <p className="font-bold text-center md:text-left mt-2">
               Empowering Drivers, Rewarding Users with AI route mapping
             </p>
             <p className="font-normal text-center md:text-left">
@@ -225,7 +225,83 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
+      <div className="bg-white w-full py-4 flex flex-col gap-0 p-5">
+  <h1 className="text-[#100062] font-bold text-4xl text-center">
+    Why<span className="text-[#FF2E00]"> Truride? </span>
+  </h1>
+  <div className="flex justify-center mt-2">
+    <img
+      src={line}
+      alt="Decorative line"
+      className="rotate-180 w-32"
+      style={{ alignItems: "center" }}
+    />
+  </div>
+
+  <div className="flex flex-col sm:flex-row sm:flex-wrap md:flex-nowrap md:justify-around items-center mt-10">
+    <div className="w-full sm:w-[100%] md:w-[60%] flex flex-col items-center px-8">
+      <p className="font-bold text-center mt-2">
+        Empowering Drivers, Rewarding Users with AI route mapping
+      </p>
+      <p className="font-normal text-center">
+        At TruRidetaxi, we're a vibrant community, empowering drivers with
+        40% stake ownership.<br /> Our AI route mapping optimizes rides,
+        making them more affordable and efficient for <br/>both drivers
+        and riders.
+      </p>
+    </div>
+    <div className="w-full sm:w-[100%] md:w-[40%] flex justify-center mt-2">
+      <img
+        src={amico}
+        className="max-w-full h-auto"
+        alt="Descriptive Alt Text"
+      />
+    </div>
+  </div>
+
+  <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-10 mb-4"> {/* Reduced bottom margin */}
+    <div className="w-full sm:w-[100%] md:w-[40%] flex justify-center px-8">
+      <img
+        src={grouptwo}
+        className="max-w-full h-auto"
+        alt="Descriptive Alt Text"
+      />
+    </div>
+    <div className="w-full sm:w-[100%] md:w-[60%] flex flex-col items-center px-8">
+      <p className="font-bold text-center mt-2">
+        Seamless Cabs & Auto Bookings with One tap Accessibility
+      </p>
+      <p className="font-normal text-center">
+        TruRide is user-friendly, allowing riders to access cab or auto
+        bookings through
+        <br /> a #360 of our dedicated Number or via the WhatsApp platform
+        with just one tap.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex flex-col md:flex-row justify-between items-center gap-10 mt-10 mb-4"> {/* Reduced bottom margin */}
+    <div className="w-full sm:w-[100%] md:w-[60%] flex flex-col items-center px-8">
+      <p className="font-bold text-center mt-2">
+        Empowering Drivers, Rewarding Users with AI route mapping
+      </p>
+      <p className="font-normal text-center">
+        At TruRidetaxi, we're a vibrant community, empowering drivers with
+        40% stake<br/> ownership. Our AI route mapping optimizes rides, making
+        them more affordable<br/> and efficient for both drivers and riders.
+      </p>
+    </div>
+    <div className="w-full sm:w-[100%] md:w-[40%] flex justify-center mt-2">
+      <img
+        src={amico}
+        className="max-w-full h-auto"
+        alt="Descriptive Alt Text"
+      />
+    </div>
+  </div>
+</div>
+
     </>
   );
 }
